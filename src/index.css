@@ -1,3 +1,7 @@
+/*changes made by me*/
+*{margin:0;
+  padding:0;}
+  /*changes made by me*/
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -11,3 +15,117 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+/* changes made by me*/
+
+.text-center{text-align:center}
+.bg-dark{background-color:black}
+.text-light{ color:beige}
+.bg-light{background-color:rgb(248, 248, 248)}
+.my-3{margin:3vh 0}
+.py-3{padding:3vh 0}
+.p-2{padding:6px}
+.p-3{padding:0.75em}
+.m-12{margin:12px !important}
+.w-5{width:50%}
+.btn{ 
+  padding:8px 16px;
+  margin:10px 0;
+  border-radius:7px;
+  font-size:24px;
+}
+.btn:hover{
+ filter:contrast(110%)
+}
+.btn:active{
+  filter:brightness(110%)
+}
+.btn-danger{
+  background-color: rgb(236, 89, 62);
+  border:0;
+  box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  color:aliceblue
+}
+.btn-sucess{ background-color: #4caf50;
+  border:0;
+  box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  color:aliceblue
+
+}
+.btn-sm{ padding:6px 10px;
+  font-size:16px;
+}
+.navbar{ display:flex;
+  flex-direction: row;
+  }
+.min-container{min-height: calc(94vh - 96px) !important}
+.container{display:flex;
+  flex-direction: column;
+  
+ align-items:center;
+min-height:0 !important;
+ margin: 20px auto;
+
+}
+.container *{ margin:5px;}
+.container > * { margin:10px;
+   }
+.container-start{display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  min-height: 0 !important;
+  margin: 20px auto;}
+  .container-start *{ margin:4px 10px;}
+.container-start > * { margin:10px;
+   }
+.navflex{
+  display:flex;
+  align-items:center;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+ padding:10px;
+ margin-bottom: 10px;
+}
+.navflex .navbar-brand{
+  min-width:5%; 
+}
+.navflex .fr{
+  width:90%;
+}
+.fr{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.fr ul,ol{
+  width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.navbar-brand{ text-decoration: none;
+  text-align: center;
+  margin:12px;
+}
+.nav-item{
+  list-style: none;
+  margin:0 5px;
+  text-align:center;
+}
+.nav-link{ text-decoration: none;}
+
+.d-flex *{ margin:5px;
+}
+@media only screen and (max-width: 500px) {
+
+  .fr ul,.fr ol,.d-flex{
+    width:100%;
+  }
+  .d-flex { 
+    display: flex;
+    flex-wrap: wrap;
+        justify-content: center;}
+ }
+
