@@ -40,7 +40,7 @@ function Fp3(props) {
 
   return (
     <div className='min-container'>
-<p className='text-center' ><b>{'* Are mendatory fields'}</b></p>
+<p className='text-center' ><b>{'* Are mandatory fields'}</b></p>
       <form action="" onSubmit={submit} id="fp2" className='container'>
       <label htmlFor='linkedin'>*Linked in profile url</label>
       <input type='text' name='linkedin'  onChange={((e)=>{setlinkedin(e.target.value)})} id='linkedin' placeholder='Enter your linked in url' value={linkedin} className='p-3 w-5'/>
