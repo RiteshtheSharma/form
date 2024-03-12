@@ -34,7 +34,7 @@ function Fp2(props) {
 
   return (
     <div className='min-container'>
-<p className='text-center' ><b>{'* Are mendatory fields'}</b></p>
+<p className='text-center' ><b>{'* Are mandatory fields'}</b></p>
       <form action="" onSubmit={submit} id="fp2" className='container'>
       <label htmlFor='post'>*Post</label>
       <input type='text' name='post'  onChange={((e)=>{setpost(e.target.value)})} id='post' placeholder='Enter the position you want to apply' value={post} className='p-3 w-5'/>
