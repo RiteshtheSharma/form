@@ -30,7 +30,7 @@ const Fp1=(props)=> {
 
   return (
 <div className='min-container'>
-<p className='text-center' ><b>{'* Are mendatory fields'}</b></p>
+<p className='text-center' ><b>{'* Are mandatory fields'}</b></p>
       <form action="" onSubmit={submit} id="fp1" className='container'>
       <label htmlFor='name'>*Name</label>
       <input type='text' name='name'  onChange={((e)=>{setname(e.target.value)})} id='name' placeholder='Enter Name' value={name} className='p-3 w-5'/>
